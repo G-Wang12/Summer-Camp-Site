@@ -5,6 +5,7 @@ import { Masthead } from './Masthead';
 import { AboutUs } from './AboutUs';
 import { PageWrapper } from 'app/components/PageWrapper';
 import { Schedule } from './Schedule';
+import { Pricing } from './Pricing';
 
 export function HomePage() {
   return (
@@ -21,6 +22,7 @@ export function HomePage() {
         <Masthead />
         <AboutUs />
         <Schedule />
+        <Pricing />
       </PageWrapper>
     </>
   );

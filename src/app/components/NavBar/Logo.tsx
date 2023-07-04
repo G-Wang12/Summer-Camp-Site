@@ -5,7 +5,7 @@ export function Logo() {
   return (
     <Wrapper>
       <Title>Cali Camp 2023</Title>
-      <Description>Toronto's most individualized sports camp</Description>
+      <Description>Toronto's most personalized sports camp</Description>
     </Wrapper>
   );
 }
