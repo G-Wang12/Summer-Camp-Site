@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { Logos } from './Logos';
+// import { Logos } from '../../components/NavBar/assets/header-img.jpeg';
 import { Title } from './components/Title';
 import { Lead } from './components/Lead';
 import { A } from 'app/components/A';
@@ -8,9 +8,10 @@ import { A } from 'app/components/A';
 export function Masthead() {
   return (
     <Wrapper>
-      <Logos />
-      <Title>React Boilerplate meets CRA</Title>
-      <Lead>
+      {/* <Logos /> */}
+      <img src={require("../../components/NavBar/assets/header-img.jpeg")} />
+      <Title>Welcome to Cali Camp</Title>
+      {/* <Lead>
         Now you can use the{' '}
         <A
           href="https://www.reactboilerplate.com/"
@@ -28,16 +29,23 @@ export function Masthead() {
           Create React App
         </A>{' '}
         template.
+      </Lead> */}
+      <Lead>
+        We are a Toronto based sports camp ran by 2 high school graduates with the goal of creating a personalized sporting experience for kids from ages 9-13
       </Lead>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.main`
-  height: 60vh;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 320px;
+  img {
+    height: 230px;
+    width: 300px;
+  }
 `;

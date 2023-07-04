@@ -2,8 +2,9 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { NavBar } from 'app/components/NavBar';
 import { Masthead } from './Masthead';
-import { Features } from './Features';
+import { AboutUs } from './AboutUs';
 import { PageWrapper } from 'app/components/PageWrapper';
+import { Schedule } from './Schedule';
 
 export function HomePage() {
   return (
@@ -18,7 +19,8 @@ export function HomePage() {
       <NavBar />
       <PageWrapper>
         <Masthead />
-        <Features />
+        <AboutUs />
+        <Schedule />
       </PageWrapper>
     </>
   );

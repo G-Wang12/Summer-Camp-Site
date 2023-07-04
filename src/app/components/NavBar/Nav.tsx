@@ -1,19 +1,21 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { ReactComponent as DocumentationIcon } from './assets/documentation-icon.svg';
-import { ReactComponent as GithubIcon } from './assets/github-icon.svg';
+// import { ReactComponent as MapIcon } from './assets/map-icon.svg';
+// import { ReactComponent as GithubIcon } from './assets/github-icon.svg';
+import { Envelope } from '@phosphor-icons/react';
+import { MapPin } from'@phosphor-icons/react'; 
 
 export function Nav() {
   return (
     <Wrapper>
       <Item
-        href="https://cansahin.gitbook.io/react-boilerplate-cra-template/"
+        href="https://goo.gl/maps/C8pEuYid3ANJiyNF7"
         target="_blank"
         title="Documentation Page"
         rel="noopener noreferrer"
       >
-        <DocumentationIcon />
-        Documentation
+        <MapPin size={24} style={{marginRight: 5}}/>
+        Location
       </Item>
       <Item
         href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
@@ -21,8 +23,9 @@ export function Nav() {
         title="Github Page"
         rel="noopener noreferrer"
       >
-        <GithubIcon />
-        Github
+        <Envelope size={24} style={{marginRight: 5}}/>
+        
+        Contact/Registration
       </Item>
     </Wrapper>
   );
@@ -51,7 +54,10 @@ const Item = styled.a`
     opacity: 0.4;
   }
 
-  .icon {
-    margin-right: 0.25rem;
-  }
+  // svg {
+  //   width: 24px;
+  //   height: 24px;
+  // }
 `;
+
+

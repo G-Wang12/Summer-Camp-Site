@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createRenderer } from 'react-test-renderer/shallow';
-import { Features } from '../Features';
+import { Features } from '../AboutUs';
 import i18next from 'i18next';
 
 const shallowRenderer = createRenderer();
