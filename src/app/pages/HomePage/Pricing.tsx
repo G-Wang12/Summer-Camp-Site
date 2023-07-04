@@ -22,6 +22,7 @@ export function Pricing() {
                 <InsideWrapper>
                     <SubTitle>Registration Fees</SubTitle>  
                     <Text>Full day: $250 per week</Text>
+                    <P>***Registration still currently open</P>
                 </InsideWrapper>
                 <InsideWrapper>
                     <SubTitle>Weeks Available</SubTitle>  

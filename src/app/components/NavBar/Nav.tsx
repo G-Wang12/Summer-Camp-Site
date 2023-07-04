@@ -18,9 +18,9 @@ export function Nav() {
         Location
       </Item>
       <Item
-        href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
+        href="mailto:gordonwang0608@gmail.com"
         target="_blank"
-        title="Github Page"
+        title="Contact"
         rel="noopener noreferrer"
       >
         <Envelope size={24} style={{marginRight: 5}}/>
