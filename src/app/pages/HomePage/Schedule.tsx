@@ -35,7 +35,7 @@ export function Schedule() {
                     ))}
                 </InsideWrapper>
                 <VideoWrapper>
-                    <ReactPlayer url='videos/video2.mov' controls={true} width="500" playing={true} loop={true}/>
+                    <ReactPlayer url='videos/video2.mov' controls={true} width="500" playing={false} loop={true}/>
                 </VideoWrapper>
             </ScheduleWrapper>
             <SubTitle>Other sports/activities that will be covered during the week on rotation include:</SubTitle>

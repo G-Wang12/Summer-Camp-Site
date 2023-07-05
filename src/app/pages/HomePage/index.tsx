@@ -8,6 +8,7 @@ import { Schedule } from './Schedule';
 import { Pricing } from './Pricing';
 import { Registration } from './Registration';
 import { Location } from './Location';
+import { Footer } from './Footer';
 
 export function HomePage() {
   return (
@@ -26,8 +27,9 @@ export function HomePage() {
         <Schedule />
         <Pricing />
         <Location />
-        <Registration />
+        <Registration />    
       </PageWrapper>
+      <Footer/>
     </>
   );
 }

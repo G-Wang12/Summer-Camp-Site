@@ -45,9 +45,6 @@ export function Location() {
     )
 }
 
-// export default GoogleApiWrapper({
-//     apiKey: ("AIzaSyDhwJVxEWscWFVsl45e3S5uBZQ4ygj008c")
-//   })(Location)
 const MapContainer = styled.div`
     height: 300px;
     width: 300px;

@@ -38,7 +38,7 @@ export function AboutUs() {
           <img src='fsf'/>
           <Content>
             <SubTitle>Calixto Rodriguez</SubTitle>
-            <P>Hi! my name is Calixto, I'm a 17-year-old grade 12 graduate from North Toronto Collegiate Institute and am about to attend The University of Waterloo for Chemical engineering. I have played competitive soccer and gymnastics for over 10 years and have experience with other sports including basketball, track, and volleyball. I also have plenty of experience leading and coaching, including volunteering as a C.I.T. at Just Bounce Trampoline Club and, as an assistant coach for North York Academy, and of course the 3 years that I have previously run this camp. Finally, I am also a National level trampoline athlete competing for Just Bounce Trampoline Club.</P>
+            <P>Hi! My name is Calixto, I'm a 17-year-old grade 12 graduate from North Toronto Collegiate Institute and am about to attend The University of Waterloo for Chemical engineering. I have played competitive soccer and gymnastics for over 10 years and have experience with other sports including basketball, track, and volleyball. I also have plenty of experience leading and coaching, including volunteering as a C.I.T. at Just Bounce Trampoline Club and, as an assistant coach for North York Academy, and of course the 3 years that I have previously run this camp. Finally, I am also a National level trampoline athlete competing for Just Bounce Trampoline Club.</P>
           </Content>
         </Person>
 

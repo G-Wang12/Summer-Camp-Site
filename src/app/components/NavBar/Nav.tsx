@@ -18,7 +18,7 @@ export function Nav() {
         Location
       </Item>
       <Item
-        href="mailto:gordonwang0608@gmail.com"
+        href="mailto:caliathletico@gmail.com"
         target="_blank"
         title="Contact"
         rel="noopener noreferrer"

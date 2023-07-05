@@ -31,7 +31,7 @@ export function Masthead() {
         template.
       </Lead> */}
       <Lead>
-        We are a Toronto based sports camp ran by 2 high school graduates with the goal of creating a personalized sporting experience for kids from ages 9-13. We have been running this camp for the past 3 years so we are by no means short on experience.
+        We are a Toronto based sports camp ran by 2 high school graduates with the goal of creating a personalized sporting experience for kids from ages 9-14. We have been running this camp for the past 4 summers so we are by no means short on experience.
       </Lead>
     </Wrapper>
   );
