@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@phosphor-icons/react": "2.0.10",
+    "@react-google-maps/api": "2.18.1",
     "@reduxjs/toolkit": "1.8.5",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
@@ -26,6 +27,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "fontfaceobserver": "2.3.0",
+    "google-map-react": "2.2.1",
     "husky": "8.0.1",
     "i18next": "21.9.2",
     "i18next-browser-languagedetector": "6.1.5",

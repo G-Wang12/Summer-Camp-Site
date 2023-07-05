@@ -4,8 +4,7 @@ import { Title } from './components/Title';
 import { P } from './components/P';
 import { SubTitle } from './components/SubTitle';
 
-var weeks:string[];
-weeks = [
+const weeks:string[] = [
     "Week 1: July 4 – July 7 ",
     "Week 2: July 10 – July 14",
     "Week 3: July 17 – July 21",
@@ -21,7 +20,7 @@ export function Pricing() {
             <RegistrationWrapper>
                 <InsideWrapper>
                     <SubTitle>Registration Fees</SubTitle>  
-                    <Text>Full day: $250 per week</Text>
+                    <Text>Full day: $250 per week (5 days)</Text>
                     <P>***Registration still currently open</P>
                 </InsideWrapper>
                 <InsideWrapper>
@@ -54,7 +53,7 @@ const RegistrationWrapper = styled.div`
 const InsideWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
+    margin-right: 5rem;
     width: 300px;
 `;
 

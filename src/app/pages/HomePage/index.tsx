@@ -7,6 +7,7 @@ import { PageWrapper } from 'app/components/PageWrapper';
 import { Schedule } from './Schedule';
 import { Pricing } from './Pricing';
 import { Registration } from './Registration';
+import { Location } from './Location';
 
 export function HomePage() {
   return (
@@ -24,6 +25,7 @@ export function HomePage() {
         <AboutUs />
         <Schedule />
         <Pricing />
+        <Location />
         <Registration />
       </PageWrapper>
     </>

@@ -5,8 +5,7 @@ import { P } from './components/P';
 import { SubTitle } from './components/SubTitle';
 import ReactPlayer from 'react-player'
 
-var activities:string[];
-activities = [
+const activities:string[] = [
     "9:30 | Drop-off",
     "9:30 - 9:35 | walk to JW or Lawrence park",
     "9:35 - 10:50 | soccer playing/training",
@@ -36,7 +35,7 @@ export function Schedule() {
                     ))}
                 </InsideWrapper>
                 <VideoWrapper>
-                    <ReactPlayer url='videos/video2.mov'  width="500" playing={true} loop={true}/>
+                    <ReactPlayer url='videos/video2.mov' controls={true} width="500" playing={true} loop={true}/>
                 </VideoWrapper>
             </ScheduleWrapper>
             <SubTitle>Other sports/activities that will be covered during the week on rotation include:</SubTitle>
