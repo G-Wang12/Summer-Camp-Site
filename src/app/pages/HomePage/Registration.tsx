@@ -9,13 +9,14 @@ export function Registration() {
   return (
     <>
       <Title>Registration</Title>
-      <P>Please send an email to{' '}
-        <A href='mailto:caliathletico@gmail.com'>caliathletico@gmail.com</A>
-        {' '}or text 416-787-9264 to start your registration. We aim to reply within 24 hours.
+      <P>
+        Please send an email to{' '}
+        <A href="mailto:caliathletico@gmail.com">caliathletico@gmail.com</A> or
+        text 416-787-9264 to start your registration. We aim to reply within 24
+        hours.
       </P>
     </>
-    
-  ) 
+  );
 }
 
 const Link = styled.a`
@@ -34,5 +35,5 @@ const Link = styled.a`
 
   &:active {
     opacity: 0.4;
-}
+  }
 `;

@@ -27,9 +27,9 @@ export function HomePage() {
         <Schedule />
         <Pricing />
         <Location />
-        <Registration />    
+        <Registration />
       </PageWrapper>
-      <Footer/>
+      <Footer />
     </>
   );
 }

@@ -20,6 +20,7 @@ import { ReactComponent as CodeAnalysisIcon } from './assets/code-analysis.svg';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'app/components/Link';
 import { messages } from '../messages';
+// import { IMG} from './assets/calixto-image.jpg'
 
 export function AboutUs() {
   const { t } = useTranslation();
@@ -35,10 +36,41 @@ export function AboutUs() {
       </Lead> */}
       <List>
         <Person>
-          <img src='fsf'/>
+          <HeadPic1 src={require('./assets/calixto-image.jpg')} />
           <Content>
             <SubTitle>Calixto Rodriguez</SubTitle>
-            <P>Hi! My name is Calixto, I'm a 17-year-old grade 12 graduate from North Toronto Collegiate Institute and am about to attend The University of Waterloo for Chemical engineering. I have played competitive soccer and gymnastics for over 10 years and have experience with other sports including basketball, track, and volleyball. I also have plenty of experience leading and coaching, including volunteering as a C.I.T. at Just Bounce Trampoline Club and, as an assistant coach for North York Academy, and of course the 3 years that I have previously run this camp. Finally, I am also a National level trampoline athlete competing for Just Bounce Trampoline Club.</P>
+            <P>
+              Hi! My name is Calixto, I'm a 17-year-old grade 12 graduate from
+              North Toronto Collegiate Institute and am about to attend The
+              University of Waterloo for Chemical engineering. I have played
+              competitive soccer and gymnastics for over 10 years and have
+              experience with other sports including basketball, track, and
+              volleyball. I also have plenty of experience leading and coaching,
+              including volunteering as a C.I.T. at Just Bounce Trampoline Club
+              and, as an assistant coach for North York Academy, and of course
+              the 3 years that I have previously run this camp. Finally, I am
+              also a National level trampoline athlete competing for Just Bounce
+              Trampoline Club.
+            </P>
+          </Content>
+        </Person>
+        <Person>
+          <HeadPic2 src={require('./assets/gordon-image.jpg')} />
+          <Content>
+            <SubTitle>Gordon Wang</SubTitle>
+            <P>
+              Hi! My name is Calixto, I'm a 17-year-old grade 12 graduate from
+              North Toronto Collegiate Institute and am about to attend The
+              University of Waterloo for Chemical engineering. I have played
+              competitive soccer and gymnastics for over 10 years and have
+              experience with other sports including basketball, track, and
+              volleyball. I also have plenty of experience leading and coaching,
+              including volunteering as a C.I.T. at Just Bounce Trampoline Club
+              and, as an assistant coach for North York Academy, and of course
+              the 3 years that I have previously run this camp. Finally, I am
+              also a National level trampoline athlete competing for Just Bounce
+              Trampoline Club.
+            </P>
           </Content>
         </Person>
 
@@ -177,15 +209,23 @@ const Person = styled.li`
     margin-right: 2.25rem;
     flex-shrink: 0;
   }
-  img {
-    width: 8rem;
-    height: 8rem;
-    margin-right: 2.25rem;
-    flex-shrink: 0;
-  }
 `;
 const Content = styled.div`
   flex: 1;
+`;
+
+const HeadPic1 = styled.img`
+  width: 130px;
+  height: 220px;
+  margin-right: 2.25rem;
+  flex-shrink: 0;
+`;
+
+const HeadPic2 = styled.img`
+  width: 180px;
+  height: 220px;
+  margin-right: 2.25rem;
+  flex-shrink: 0;
 `;
 
 const List = styled.ul`

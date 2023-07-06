@@ -9,7 +9,7 @@ export function Masthead() {
   return (
     <Wrapper>
       {/* <Logos /> */}
-      <img src={require("../../components/NavBar/assets/header-img.jpeg")} />
+      <img src={require('../../components/NavBar/assets/header-img.jpeg')} />
       <Title>Welcome to Cali Camp</Title>
       {/* <Lead>
         Now you can use the{' '}
@@ -31,21 +31,24 @@ export function Masthead() {
         template.
       </Lead> */}
       <Lead>
-        We are a Toronto based sports camp ran by 2 high school graduates with the goal of creating a personalized sporting experience for kids from ages 9-14. We have been running this camp for the past 4 summers so we are by no means short on experience.
+        We are a Toronto based sports camp ran by 2 high school graduates with
+        the goal of creating a personalized sporting experience for kids from
+        ages 9-14. We have been running this camp for the past 4 summers so we
+        are by no means short on experience.
       </Lead>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.main`
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 320px;
   img {
-    height: 230px;
-    width: 300px;
+    height: 460px;
+    width: 600px;
   }
 `;
