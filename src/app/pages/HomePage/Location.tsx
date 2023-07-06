@@ -23,7 +23,7 @@ const defaultProps2 = {
 
 export function Location() {
   const renderMarkers = (map, maps, center) => {
-    let marker = new maps.Marker({
+    new maps.Marker({
       position: center,
       map,
       title: 'Hello World!',

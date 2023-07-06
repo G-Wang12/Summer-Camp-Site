@@ -3,13 +3,15 @@ import styled from 'styled-components/macro';
 // import { Logos } from '../../components/NavBar/assets/header-img.jpeg';
 import { Title } from './components/Title';
 import { Lead } from './components/Lead';
-import { A } from 'app/components/A';
 
 export function Masthead() {
   return (
     <Wrapper>
       {/* <Logos /> */}
-      <img src={require('../../components/NavBar/assets/header-img.jpeg')} />
+      <img
+        src={require('../../components/NavBar/assets/header-img.jpeg')}
+        alt="header"
+      />
       <Title>Welcome to Cali Camp</Title>
       {/* <Lead>
         Now you can use the{' '}

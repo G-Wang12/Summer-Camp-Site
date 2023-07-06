@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 // import { ReactComponent as MapIcon } from './assets/map-icon.svg';
 // import { ReactComponent as GithubIcon } from './assets/github-icon.svg';
 import { Envelope } from '@phosphor-icons/react';
-import { MapPin } from'@phosphor-icons/react'; 
+import { MapPin } from '@phosphor-icons/react';
 
 export function Nav() {
   return (
@@ -14,7 +14,7 @@ export function Nav() {
         title="Documentation Page"
         rel="noopener noreferrer"
       >
-        <MapPin size={24} style={{marginRight: 5}}/>
+        <MapPin size={24} style={{ marginRight: 5 }} />
         Location
       </Item>
       <Item
@@ -23,8 +23,7 @@ export function Nav() {
         title="Contact"
         rel="noopener noreferrer"
       >
-        <Envelope size={24} style={{marginRight: 5}}/>
-        
+        <Envelope size={24} style={{ marginRight: 5 }} />
         Contact/Registration
       </Item>
     </Wrapper>
@@ -59,5 +58,3 @@ const Item = styled.a`
   //   height: 24px;
   // }
 `;
-
-

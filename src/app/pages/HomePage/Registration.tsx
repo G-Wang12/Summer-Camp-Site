@@ -2,7 +2,6 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { Title } from './components/Title';
 import { P } from './components/P';
-import { SubTitle } from './components/SubTitle';
 import { A } from 'app/components/A';
 
 export function Registration() {
