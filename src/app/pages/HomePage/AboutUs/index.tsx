@@ -73,6 +73,26 @@ export function AboutUs() {
             </P>
           </Content>
         </Person>
+        <SubTitle>Our Mission</SubTitle>
+        <MissionBackground>
+          <MissionText>
+            Camp Cali was created during the summer of 2020 as a way to return
+            children to physical activity allowing them and their parents to lead
+            a healthier lifestyle during the pandemic. Now, more than 4 years
+            later, Camp Cali is still the fun, educational, multi-sport camp it
+            started off as, however, with 4 more years of experience. Our mission
+            as a camp is to teach kids the fundamentals of different sports and
+            the importance of active living while simultaneously having lots of
+            fun along the way. Our camp also prides itself to be able to cater to
+            all aspiring young athletes whether they play sports recreationally or
+            if they wish to take their athletic performance to the next level.
+          </MissionText>
+          <MissionIMG src={require('./assets/mission-background.jpg')}/>
+          
+        </MissionBackground>
+          
+        
+        
 
         {/* <Feature>
           <StateIcon className="feature-icon" />
@@ -231,4 +251,33 @@ const HeadPic2 = styled.img`
 const List = styled.ul`
   padding: 0;
   margin: 6.25rem 0 0 0;
+`;
+
+const MissionText = styled.div`
+  font-size: 1rem;
+  line-height: 1.5;
+  color: ${p => p.theme.textSecondary};
+  margin: 0.625rem 0 1.5rem 0;
+  // height: 300px;
+  width: 550px;
+`;
+
+const MissionIMG = styled.img`
+  height: 300px;
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 10px;
+  // position: flex;
+  // top: 0;
+  // bottom: 0;
+  // right: 0;
+  // left: 0;
+`;
+
+const MissionBackground = styled.div`
+  // position: relative;
+  width: 960px;
+  display: flex;
+  // padding: 10px
+  // overflow: hidden;
 `;
