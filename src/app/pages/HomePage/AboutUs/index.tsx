@@ -59,17 +59,16 @@ export function AboutUs() {
           <Content>
             <SubTitle>Gordon Wang</SubTitle>
             <P>
-              Hi! My name is Calixto, I'm a 17-year-old grade 12 graduate from
-              North Toronto Collegiate Institute and am about to attend The
-              University of Waterloo for Chemical engineering. I have played
-              competitive soccer and gymnastics for over 10 years and have
-              experience with other sports including basketball, track, and
-              volleyball. I also have plenty of experience leading and coaching,
-              including volunteering as a C.I.T. at Just Bounce Trampoline Club
-              and, as an assistant coach for North York Academy, and of course
-              the 3 years that I have previously run this camp. Finally, I am
-              also a National level trampoline athlete competing for Just Bounce
-              Trampoline Club.
+              Hi! My name is Gordon and I'm a grade 12 graduate from North
+              Toronto C.I. heading to the University of Waterloo for their
+              Computing and Financial Management program. I'm a huge
+              sportsperson who loves playing soccer, basketball, and football. I
+              have lots of leadership experience through my involvement with my
+              high school's Student Council and different the clubs there. I was
+              on North Toronto's Executive Student Council for 3 years with my
+              last year being the President. I also have lots of knowledge in
+              computing. I'm fluent in multiple programming languages and have
+              experience working in web development.
             </P>
           </Content>
         </Person>
