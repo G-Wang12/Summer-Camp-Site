@@ -21,7 +21,7 @@ export function App() {
   return (
     <BrowserRouter>
       <Helmet
-        titleTemplate="%s - Cali Camp"
+        titleTemplate="Cali Camp Toronto"
         defaultTitle="Cali Camp"
         htmlAttributes={{ lang: i18n.language }}
       >

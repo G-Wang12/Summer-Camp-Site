@@ -17,7 +17,7 @@ export function HomePage() {
         <title>Home Page</title>
         <meta
           name="description"
-          content="A React Boilerplate application homepage"
+          content="Cali Camp - summer sports camp Toronto"
         />
       </Helmet>
       <NavBar />

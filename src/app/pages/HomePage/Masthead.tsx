@@ -11,6 +11,7 @@ export function Masthead() {
       <img
         src={require('../../components/NavBar/assets/header-img.jpeg')}
         alt="header"
+        className='hover-zoom'
       />
       <Title>Welcome to Cali Camp</Title>
       {/* <Lead>
@@ -32,12 +33,12 @@ export function Masthead() {
         </A>{' '}
         template.
       </Lead> */}
-      <Lead>
+      <MainText>
         We are a Toronto based sports camp ran by 2 high school graduates with
         the goal of creating a personalized sporting experience for kids from
-        ages 9-14. We have been running this camp for the past 4 summers so we
+        ages 9-14. We have been running this camp for the past 3 summers so we
         are by no means short on experience.
-      </Lead>
+      </MainText>
     </Wrapper>
   );
 }
@@ -52,5 +53,23 @@ const Wrapper = styled.main`
   img {
     height: 460px;
     width: 600px;
+  }
+  img.hover-zoom {
+    transition: all 0.3s ease 0s;
+  }
+  img.hover-zoom:hover {
+    transform: scale(1.1);
+  }
+`;
+
+export const MainText = styled.p`
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: black;
+  margin: 0 0 1.5rem 0;
+
+  strong {
+    color: ${p => p.theme.text};
   }
 `;
