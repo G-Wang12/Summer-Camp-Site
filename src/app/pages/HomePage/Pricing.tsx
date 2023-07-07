@@ -17,7 +17,7 @@ export function Pricing() {
       <Title>Pricing</Title>
       <Content>
         <P>
-          Here at Cali Camp, we offer affordable pricing to families so we can
+          Here at Cali Camp Toronto, we offer affordable pricing to families so we can
           make a positive impact on as many kids as possible
         </P>
         <RegistrationWrapper>

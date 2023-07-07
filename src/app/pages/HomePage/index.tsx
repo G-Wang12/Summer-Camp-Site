@@ -28,7 +28,7 @@ export function HomePage() {
         <title>Home Page</title>
         <meta
           name="description"
-          content="Cali Camp - summer sports camp Toronto"
+          content="Cali Camp Toronto - summer sports camp"
         />
       </Helmet>
       <NavBar />

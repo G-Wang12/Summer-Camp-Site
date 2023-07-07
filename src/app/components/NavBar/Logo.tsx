@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 export function Logo() {
   return (
     <Wrapper>
-      <Title>Cali Camp 2023</Title>
+      <Title>Cali Camp Toronto 2023</Title>
       <Description>Toronto's most personalized sports camp</Description>
     </Wrapper>
   );

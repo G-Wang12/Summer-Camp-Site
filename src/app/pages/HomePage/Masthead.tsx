@@ -12,7 +12,7 @@ export function Masthead() {
         alt="header"
         className="hover-zoom"
       />
-      <Title>Welcome to Cali Camp</Title>
+      <Title>Welcome to Cali Camp Toronto</Title>
       {/* <Lead>
         Now you can use the{' '}
         <A
