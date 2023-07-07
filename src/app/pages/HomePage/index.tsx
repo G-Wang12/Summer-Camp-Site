@@ -9,8 +9,19 @@ import { Pricing } from './Pricing';
 import { Registration } from './Registration';
 import { Location } from './Location';
 import { Footer } from './Footer';
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+    dataLayer: {
+        userId: '001',
+        userProject: 'project',
+        page: 'home'
+    },
+    dataLayerName: 'PageDataLayer'
+}
 
 export function HomePage() {
+  TagManager.dataLayer(tagManagerArgs);
   return (
     <>
       <Helmet>

@@ -4,7 +4,7 @@
  * This is the entry file for the application, only setup and boilerplate
  * code.
  */
-
+import TagManager from 'react-gtm-module';
 import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 
@@ -42,6 +42,12 @@ const store = configureAppStore();
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );
+
+const tagManagerArgs = {
+  gtmId: 'G-PJ7CCBRYMC',
+};
+
+TagManager.initialize(tagManagerArgs);
 
 root.render(
   <Provider store={store}>
