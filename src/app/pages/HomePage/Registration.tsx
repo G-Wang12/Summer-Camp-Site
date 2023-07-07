@@ -18,6 +18,7 @@ export function Registration() {
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Link = styled.a`
   color: ${p => p.theme.primary};
   cursor: pointer;

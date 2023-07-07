@@ -77,22 +77,19 @@ export function AboutUs() {
         <MissionBackground>
           <MissionText>
             Camp Cali was created during the summer of 2020 as a way to return
-            children to physical activity allowing them and their parents to lead
-            a healthier lifestyle during the pandemic. Now, more than 3 years
-            later, Camp Cali is still the fun, educational, multi-sport camp it
-            started off as, however, with 3 more years of experience. Our mission
-            as a camp is to teach kids the fundamentals of different sports and
-            the importance of active living while simultaneously having lots of
-            fun along the way. Our camp also prides itself to be able to cater to
-            all aspiring young athletes whether they play sports recreationally or
-            if they wish to take their athletic performance to the next level.
+            children to physical activity allowing them and their parents to
+            lead a healthier lifestyle during the pandemic. Now, more than 3
+            years later, Camp Cali is still the fun, educational, multi-sport
+            camp it started off as, however, with 3 more years of experience.
+            Our mission as a camp is to teach kids the fundamentals of different
+            sports and the importance of active living while simultaneously
+            having lots of fun along the way. Our camp also prides itself to be
+            able to cater to all aspiring young athletes whether they play
+            sports recreationally or if they wish to take their athletic
+            performance to the next level.
           </MissionText>
-          <MissionIMG src={require('./assets/mission-background.jpg')}/>
-          
+          <MissionIMG src={require('./assets/mission-background.jpg')} />
         </MissionBackground>
-          
-        
-        
 
         {/* <Feature>
           <StateIcon className="feature-icon" />

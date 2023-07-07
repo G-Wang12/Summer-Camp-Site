@@ -2,7 +2,6 @@ import * as React from 'react';
 import styled from 'styled-components/macro';
 // import { Logos } from '../../components/NavBar/assets/header-img.jpeg';
 import { Title } from './components/Title';
-import { Lead } from './components/Lead';
 
 export function Masthead() {
   return (
@@ -11,7 +10,7 @@ export function Masthead() {
       <img
         src={require('../../components/NavBar/assets/header-img.jpeg')}
         alt="header"
-        className='hover-zoom'
+        className="hover-zoom"
       />
       <Title>Welcome to Cali Camp</Title>
       {/* <Lead>
