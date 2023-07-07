@@ -45,6 +45,7 @@ const root = ReactDOM.createRoot(
 
 const tagManagerArgs = {
   gtmId: 'G-PJ7CCBRYMC',
+  dataLayerName: 'PageDataLayer',
 };
 
 TagManager.initialize(tagManagerArgs);
