@@ -19,8 +19,7 @@ To get started with the project, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/summer-camp-website.git
-    cd summer-camp-website
+    git clone git@github.com:G-Wang12/Summer-Camp-Site.git
     ```
 
 2. **Install dependencies:**
