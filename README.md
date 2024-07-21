@@ -1,6 +1,6 @@
 # Summer Camp Website
 
-Welcome to the Summer Camp Website repository! This project is a website built using React and TypeScript to manage and display information about a summer camp.
+Welcome to the Summer Camp Website repository! This project is a website built using React and TypeScript to manage and display information about [Cali Camp](https://cali-camp-toronto.vercel.app/). 
 
 ## Table of Contents
 
